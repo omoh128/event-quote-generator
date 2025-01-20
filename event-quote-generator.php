@@ -5,7 +5,7 @@
  * Description: Custom quote generator for events and wedding party suppliers
  * Version: 1.0.0
  * Author: Omomoh Agiogu
- * Author URI: https://yourwebsite.com
+ * Author URI: https://github.com/omoh128/
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: event-quote-generator

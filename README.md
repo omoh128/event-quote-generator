@@ -39,27 +39,6 @@ Development
 File Structure
 The plugin uses the following file structure for easy maintenance:
 
-css
-Copy code
-event-quote-generator/
-├── assets/
-│   ├── css/
-│   ├── js/
-├── src/
-│   ├── Admin/
-│   ├── Frontend/
-│   ├── Common/
-├── templates/
-├── languages/
-├── event-quote-generator.php
-└── uninstall.php
-Contributing
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Submit a pull request.
-Support
-If you encounter issues or have questions, please contact support@example.com.
-
 License
 This plugin is licensed under the GPL-2.0-or-later license. See the LICENSE file for details.
 
