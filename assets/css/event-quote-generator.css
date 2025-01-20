@@ -1,0 +1,103 @@
+.event-quote-generator-form-wrapper {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-quote-form .form-group {
+    margin-bottom: 1.5em;
+}
+
+.event-quote-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    color: #333;
+}
+
+.event-quote-form select,
+.event-quote-form input {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.event-quote-form select:focus,
+.event-quote-form input:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.event-quote-form .submit-button {
+    width: 100%;
+    padding: 1em;
+    background: #aa4700;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.event-quote-form .submit-button:hover {
+    background: #774700;
+}
+
+.event-quote-form .submit-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Quote Result Styles */
+.quote-result {
+    margin-top: 2em;
+    padding: 1.5em;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.quote-result.success {
+    background: #f0f9ff;
+    border: 1px solid #bee3f8;
+}
+
+.quote-result.error {
+    background: #fff5f5;
+    border: 1px solid #fed7d7;
+}
+
+.quote-amount {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2c5282;
+    margin: 0.5em 0;
+}
+
+.quote-message {
+    color: #4a5568;
+    margin-top: 1em;
+}
+
+.quote-error p {
+    color: #c53030;
+    margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .event-quote-generator-form-wrapper {
+        padding: 1em;
+        margin: 1em;
+    }
+    
+    .quote-amount {
+        font-size: 2em;
+    }
+}

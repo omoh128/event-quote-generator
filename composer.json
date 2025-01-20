@@ -1,0 +1,20 @@
+{
+    "name": "omomohagiogu/event-quote-generator",
+    "description": "Custom quote generator for events and wedding party suppliers",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EventQuoteGenerator\\": "src/"
+        }
+    },
+    "license": "GPL-2.0-or-later",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
